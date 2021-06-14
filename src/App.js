@@ -32,7 +32,7 @@ function App() {
                       path="/forgotpassword"
                       component={ForgotPass}
                     ></Route>
-                    <Route path="/reset" component={ResetPassword}></Route>
+                    <Route path="/reset/:id" component={ResetPassword}></Route>
                     <Route
                       exact
                       path="/register"
