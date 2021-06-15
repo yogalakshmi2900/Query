@@ -32,13 +32,13 @@ function App() {
                       path="/forgotpassword"
                       component={ForgotPass}
                     ></Route>
-                    <Route path="/reset/:id" component={ResetPassword}></Route>
+                    <Route exact path="/reset/:id" component={ResetPassword}></Route>
                     <Route
                       exact
                       path="/register"
                       component={RegisterUser}
                     ></Route>
-                    <Route path="*" component={NotFound}></Route>
+                    <Route exact path="*" component={NotFound}></Route>
                   </Switch>
                 </CSSTransition>
               </SwitchTransition>
