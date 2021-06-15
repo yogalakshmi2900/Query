@@ -71,7 +71,7 @@ function UserLogin() {
           </button>
         </form>
         <div className="links">
-          <Link to={"/forgotpassword"} className="link">
+          <Link to={"/reset/123456"} className="link">
             Forgot Password
           </Link>
           <Link to={"/register"} className="link">
